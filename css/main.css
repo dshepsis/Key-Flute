@@ -16,6 +16,7 @@ body {
   flex-direction: column
 }
 
+
 #center-col {
   width: 840px;
   flex-grow: 1;
@@ -23,6 +24,11 @@ body {
   margin: auto;
   background-color: #eeeef3;
   box-shadow: 0 0 20px 5px #0004;
+}
+@media (max-width: 840px) {
+  #center-col {
+    width: 100%;
+  }
 }
 
 main > *:last-child {
